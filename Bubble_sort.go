@@ -14,7 +14,7 @@ func BubbleShort() []int {
 	//Short(arr)
 
 	for i := 0; i < len(arr); i++ {
-		fmt.Println(arr[i])
+		//fmt.Println(arr[i])
 
 		for j := 0; j < len(arr)-1; j++ {
 
@@ -26,6 +26,7 @@ func BubbleShort() []int {
 		}
 
 	}
+	fmt.Println(arr)
 	return arr
 }
 
